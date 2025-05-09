@@ -1,5 +1,5 @@
 function FindProxyForURL(url, host) {
-  return "PROXY 10.0.0.28:3128";
+  // return "PROXY 10.0.0.28:3128";
 
   // add proxy
   if ( localHostOrDomainIs(host, "adp417pcv.acnshared.com") ) {

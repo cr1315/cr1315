@@ -1,7 +1,7 @@
 function FindProxyForURL(url, host) {
   // add proxy to ladc
   if (
-    localHostOrDomainIs(host, "adp417pcv.acnshared.com")
+    dnsDomainIs(host, ".acnshared.com")
   ) {
     return "PROXY 10.0.0.28:3128;";
   }
